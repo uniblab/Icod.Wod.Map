@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+	<PropertyGroup>
+		<RootNamespace>Icod.Wod.Map</RootNamespace>
+		<AssemblyName>Icod.Wod.Map</AssemblyName>
+		<ProjectGuid>{DE63AF05-1144-4E27-89EF-577C6D46F05B}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>
+		</AppDesignerFolder>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<DocumentationFile>bin\$(Configuration)\$(AssemblyName).XML</DocumentationFile>
+		<StartupObject />
+		<OutputType>Library</OutputType>
+		<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		<TargetFrameworkProfile>
+		</TargetFrameworkProfile>
+		<FileAlignment>512</FileAlignment>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration.Contains( &quot;net45&quot; ))' ">
+		<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration.Contains( &quot;Debug&quot; ))' ">
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>2</WarningLevel>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<SignAssembly>false</SignAssembly>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration.Contains( &quot;Staging&quot; ))' ">
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>3</WarningLevel>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<DefineConstants>TRACE</DefineConstants>
+		<SignAssembly>false</SignAssembly>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration.Contains( &quot;Release&quot; ))' ">
+		<AssemblyKeyContainerName>Icod</AssemblyKeyContainerName>
+		<AssemblyOriginatorKeyFile>..\STRONG_NAME_KEY\Icod.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>true</SignAssembly>
+		<DelaySign>false</DelaySign>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Staging' ">
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release-net45' ">
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System" />
+		<Reference Include="System.Core" />
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Net.Http" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AssemblyInfo.cs" />
+		<Compile Include="src\IMapWith.cs" />
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
