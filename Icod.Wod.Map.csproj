@@ -74,8 +74,6 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="src\IMapWith.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="doc\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
