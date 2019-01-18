@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Icod.Wod.Map</id>
+		<version>1.0.1</version>
+		<title>Icod.Wod.Map</title>
+		<authors>uniblab@hotmail.com (Timothy J. Bruce)</authors>
+		<owners>uniblab@hotmail.com (Timothy J. Bruce)</owners>
+		<licenseUrl>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</licenseUrl>
+		<iconUrl>https://s.gravatar.com/avatar/5fade81ed2906e42cd1ca6fbf4d3c455?s=80</iconUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<repository type="git" url="https://github.com/JamesNK/Newtonsoft.Json.git" />
+		<description>Maping interface for the Icod Work on Demand framework.</description>
+		<releaseNotes>Updating repository information.</releaseNotes>
+		<copyright>Copyright 2019 Timothy J. Bruce</copyright>
+		<tags></tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System"/>
+			<frameworkAssembly assemblyName="System.Core"/>
+		</frameworkAssemblies>
+	</metadata>
+	<files>
+		<file src="bin\Release-net45\Icod.Wod.Map.dll" target="lib\net45" />
+		<file src="bin\Release-net45\Icod.Wod.Map.xml" target="lib\net45" />
+		<file src="bin\Release-net45\Icod.Wod.Map.pdb" target="lib\net45" />
+
+		<file src="bin\Release-net461\Icod.Wod.Map.dll" target="lib\net461" />
+		<file src="bin\Release-net461\Icod.Wod.Map.xml" target="lib\net461" />
+		<file src="bin\Release-net461\Icod.Wod.Map.pdb" target="lib\net461" />
+
+		<file src="Icod.Wod.Map.csproj" target="Source" />
+		<file src="AssemblyInfo.cs" target="Source" />
+		<file src="src\**\*.cs" target="Source\src" />
+	</files>
+</package>
