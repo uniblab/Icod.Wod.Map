@@ -9,7 +9,7 @@
 		<licenseUrl>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</licenseUrl>
 		<iconUrl>https://s.gravatar.com/avatar/5fade81ed2906e42cd1ca6fbf4d3c455?s=80</iconUrl>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<repository type="git" url="https://github.com/JamesNK/Newtonsoft.Json.git" />
+		<repository type="git" url="https://github.com/uniblab/Icod.Wod.Map.git" />
 		<description>Maping interface for the Icod Work on Demand framework.</description>
 		<releaseNotes>Updating repository information.</releaseNotes>
 		<copyright>Copyright 2019 Timothy J. Bruce</copyright>
