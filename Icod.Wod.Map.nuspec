@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>Icod.Wod.Map</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>Icod.Wod.Map</title>
 		<authors>uniblab@hotmail.com (Timothy J. Bruce)</authors>
 		<owners>uniblab@hotmail.com (Timothy J. Bruce)</owners>
@@ -11,7 +11,7 @@
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
 		<repository type="git" url="https://github.com/uniblab/Icod.Wod.Map.git" />
 		<description>Maping interface for the Icod Work on Demand framework.</description>
-		<releaseNotes>Updating repository information.</releaseNotes>
+		<releaseNotes>Updating copyright date.</releaseNotes>
 		<copyright>Copyright 2019 Timothy J. Bruce</copyright>
 		<tags></tags>
 		<frameworkAssemblies>
