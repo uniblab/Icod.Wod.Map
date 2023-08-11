@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2011
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icod.Wod.Map", "Icod.Wod.Map.csproj", "{DE63AF05-1144-4E27-89EF-577C6D46F05B}"
 EndProject
@@ -9,7 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local-Debug|Any CPU = Local-Debug|Any CPU
 		Debug|Any CPU = Debug|Any CPU
-		Release-net472|Any CPU = Release-net472|Any CPU
+		Release-net7|Any CPU = Release-net7|Any CPU
 		Staging|Any CPU = Staging|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -19,8 +19,8 @@ Global
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Staging|Any CPU.Build.0 = Staging|Any CPU
-		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net472|Any CPU.ActiveCfg = Release-net472|Any CPU
-		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net472|Any CPU.Build.0 = Release-net472|Any CPU
+		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net7|Any CPU.ActiveCfg = Release-net7|Any CPU
+		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net7|Any CPU.Build.0 = Release-net7|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
