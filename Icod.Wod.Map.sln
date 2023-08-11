@@ -9,7 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local-Debug|Any CPU = Local-Debug|Any CPU
 		Debug|Any CPU = Debug|Any CPU
-		Release-net7|Any CPU = Release-net7|Any CPU
+		Release|Any CPU = Release|Any CPU
 		Staging|Any CPU = Staging|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -19,8 +19,8 @@ Global
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
 		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Staging|Any CPU.Build.0 = Staging|Any CPU
-		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net7|Any CPU.ActiveCfg = Release-net7|Any CPU
-		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release-net7|Any CPU.Build.0 = Release-net7|Any CPU
+		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE63AF05-1144-4E27-89EF-577C6D46F05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

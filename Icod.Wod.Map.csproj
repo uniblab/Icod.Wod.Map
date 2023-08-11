@@ -16,25 +16,19 @@
 		<StartupObject />
 		<OutputType>Library</OutputType>
 		<TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
-		<TargetFrameworkProfile>
-		</TargetFrameworkProfile>
 		<FileAlignment>512</FileAlignment>
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-		<NuGetPackageImportStamp>
-		</NuGetPackageImportStamp>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
 		<PlatformTarget>AnyCPU</PlatformTarget>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Local-Debug' ">
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Staging' ">
 	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Release-net7' ">
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration.Contains( &quot;Debug&quot; ))' ">
 		<ErrorReport>prompt</ErrorReport>
